@@ -21,7 +21,9 @@ interface InputProps {
 
 const Input: React.FC<InputProps> = ({
     label,
-    id,type,required,
+    id,
+    type,
+    required,
     register,
     errors,
     disabled
